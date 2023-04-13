@@ -1,0 +1,16 @@
+{
+  "name": "babel-test",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "build": "npx babel script.js --out-file script-transformed.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4"
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ]
+}
